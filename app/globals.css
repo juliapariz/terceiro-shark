@@ -48,18 +48,13 @@ body {
   overflow-x: hidden;
 }
 
-/* =========================
-   SELEÇÃO DE TEXTO
-========================= */
 
 ::selection {
   background: var(--primary);
   color: #00111d;
 }
 
-/* =========================
-   LINKS
-========================= */
+
 
 a {
   color: inherit;
@@ -70,9 +65,6 @@ a:hover {
   color: var(--secondary);
 }
 
-/* =========================
-   BOTÕES
-========================= */
 
 button {
   border: none;
@@ -111,18 +103,11 @@ button {
     0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* =========================
-   CONTAINER
-========================= */
 
 .container {
   width: min(1200px, 90%);
   margin: 0 auto;
 }
-
-/* =========================
-   TÍTULOS
-========================= */
 
 h1,
 h2,
@@ -269,10 +254,6 @@ h4 {
   width: 100%;
 }
 
-/* =========================
-   HERO
-========================= */
-
 .hero {
   position: relative;
 
@@ -322,9 +303,6 @@ h4 {
   line-height: 1.7;
 }
 
-/* =========================
-   EFEITO ONDAS
-========================= */
 
 .wave {
   position: absolute;
@@ -344,9 +322,6 @@ h4 {
   pointer-events: none;
 }
 
-/* =========================
-   SEÇÕES
-========================= */
 
 section {
   padding: 90px 0;
@@ -366,19 +341,12 @@ section {
   color: var(--text-secondary);
 }
 
-/* =========================
-   GRID
-========================= */
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
-
-/* =========================
-   IMAGENS
-========================= */
 
 img {
   max-width: 100%;
@@ -403,10 +371,6 @@ img {
     0 0 35px rgba(0, 191, 255, 0.2);
 }
 
-/* =========================
-   FOOTER
-========================= */
-
 footer {
   padding: 45px 0;
 
@@ -423,9 +387,6 @@ footer strong {
   color: var(--primary);
 }
 
-/* =========================
-   SCROLLBAR
-========================= */
 
 ::-webkit-scrollbar {
   width: 9px;
@@ -447,10 +408,6 @@ footer strong {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary);
 }
-
-/* =========================
-   RESPONSIVIDADE
-========================= */
 
 @media (max-width: 900px) {
   .grid {
